@@ -15,6 +15,7 @@
 		772248961E7C1033008AB9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772248951E7C1033008AB9E9 /* Assets.xcassets */; };
 		772248991E7C1033008AB9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772248971E7C1033008AB9E9 /* LaunchScreen.storyboard */; };
 		772248A41E7C1033008AB9E9 /* YMZPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 772248A31E7C1033008AB9E9 /* YMZPTests.m */; };
+		772248B01E7C27D9008AB9E9 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 772248AF1E7C27D9008AB9E9 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		7722489F1E7C1033008AB9E9 /* YMZPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMZPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772248A31E7C1033008AB9E9 /* YMZPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMZPTests.m; sourceTree = "<group>"; };
 		772248A51E7C1033008AB9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772248AE1E7C27D9008AB9E9 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		772248AF1E7C27D9008AB9E9 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				7722488A1E7C1033008AB9E9 /* AppDelegate.m */,
 				7722488C1E7C1033008AB9E9 /* ViewController.h */,
 				7722488D1E7C1033008AB9E9 /* ViewController.m */,
+				772248AE1E7C27D9008AB9E9 /* person.h */,
+				772248AF1E7C27D9008AB9E9 /* person.m */,
 				7722488F1E7C1033008AB9E9 /* Main.storyboard */,
 				772248951E7C1033008AB9E9 /* Assets.xcassets */,
 				772248971E7C1033008AB9E9 /* LaunchScreen.storyboard */,
@@ -217,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7722488E1E7C1033008AB9E9 /* ViewController.m in Sources */,
+				772248B01E7C27D9008AB9E9 /* person.m in Sources */,
 				772248941E7C1033008AB9E9 /* YMZP.xcdatamodeld in Sources */,
 				7722488B1E7C1033008AB9E9 /* AppDelegate.m in Sources */,
 				772248881E7C1033008AB9E9 /* main.m in Sources */,
@@ -414,6 +420,7 @@
 				772248AA1E7C1033008AB9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		772248AB1E7C1033008AB9E9 /* Build configuration list for PBXNativeTarget "YMZPTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				772248AD1E7C1033008AB9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
